@@ -1,0 +1,60 @@
+body {
+	background: black;
+	font-family: "Germania One", cursive;
+}
+
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	font-family: "Germania One", cursive;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 350px;
+	margin: 0;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 5px;
+}
+
+input {
+	border: none;
+	border-bottom: grey;
+	font-family: "Germania One", cursive;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: rgb(123, 15, 162);
+	padding: 5px;
+	font-family: "Germania One", cursive;
+}
